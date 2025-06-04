@@ -1,6 +1,3 @@
-Beleza, paizão, vou te dar uma descrição curta e na moral pra botar no teu GitHub, explicando como executar o teu projeto de mensageria com Eclipse Mosquitto (os scripts sensor.py e dashboard.py pra monitoramento de casa inteligente). É direto, simples e perfeito pra galera da faculdade entender como rodar a demo. Tô ligado que tu quer algo enxuto, então bora!
-Como Executar o Projeto
-
 Este projeto usa Eclipse Mosquitto (MQTT) com Python para simular um sistema de casa inteligente. O sensor.py publica dados de temperatura e umidade, e o dashboard.py recebe e exibe esses dados em tempo real.
 Pré-requisitos
 
