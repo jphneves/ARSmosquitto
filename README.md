@@ -9,7 +9,7 @@ Pré-requisitos
     Biblioteca Paho MQTT: Instale com:
     bash
 
-    pip install paho-mqtt
+        pip install paho-mqtt
 
 Instruções
 
@@ -17,31 +17,28 @@ Instruções
         No Windows, abra o Prompt de Comando:
         cmd
 
-cd "C:\Program Files\mosquitto"
-mosquitto -v
-Se a porta 1883 estiver em uso, mate o processo:
-cmd
-netstat -ano | find "1883"
-taskkill /PID <PID> /F
-Ou use outra porta:
-cmd
-mosquitto -v -p 1884
-(Atualize PORT = 1884 em sensor.py e dashboard.py).
-No Linux/macOS:
-bash
-
-    mosquitto -v
+        cd "C:\Program Files\mosquitto"
+        mosquitto -v
+    Se a porta 1883 estiver em uso, mate o processo:
+    cmd
+        netstat -ano | find "1883"
+        taskkill /PID <PID> /F
+    Ou use outra porta:
+    cmd
+        mosquitto -v -p 1884
+    (Atualize PORT = 1884 em sensor.py e dashboard.py).
+    No Linux/macOS:
+    bash
+        mosquitto -v
 
 Rodar o Dashboard:
 
     Navegue até a pasta do projeto:
     cmd
-
-cd caminho/para/projeto
-Execute:
-cmd
-
-    python dashboard.py
+    cd caminho/para/projeto
+    Execute:
+    cmd
+        python dashboard.py
 
 Rodar o Sensor:
 
